@@ -1,0 +1,42 @@
+/* Custom styles for the model-viewer */
+.custom-model-viewer {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  border: 2px solid #ccc; /* Example custom styling */
+  border-radius: 10px;
+  background-color: #f9f9f9; /* Light background for better visibility */
+}
+
+/* Ensure the parent container fills the viewport */
+.model-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Ensure the model-viewer takes up the full viewport */
+model-viewer {
+  display: block;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+  background-color: #f9f9f9; /* Optional: Light background for better visibility */
+}
+
+/* Styles for hotspots */
+.Hotspot {
+  border-radius: 10px;
+  font-size: small;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.HotspotAnnotation {
+  font-weight: bold;
+  color: #333; /* Dark text for better readability */
+}
